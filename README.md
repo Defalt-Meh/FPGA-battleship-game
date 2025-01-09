@@ -85,7 +85,7 @@ Feast your eyes upon the photographic proof that this project has indeed sailed.
 ---
 
 ## Contributors
-- **Defalt** – The unstoppable Admiral who coded and conquered.  
+- **Defalt(Me)** – The unstoppable Admiral who coded and conquered.  
 
 May your seas be full of sunken ships (that belong to your opponent, of course). Happy coding!
 

@@ -1,0 +1,28 @@
+# .github/workflows/verilog-ci.yml
+name: Verilog CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Install Icarus Verilog
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog
+
+      - name: Run Testbench
+        run: |
+          # Compile your modules and testbench
+          iverilog -o battleship_test battleship.v battleship_tb.v
+          # Run the generated executable
+          vvp battleship_test

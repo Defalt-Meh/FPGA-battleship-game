@@ -1,6 +1,8 @@
 # E-Battleship 3000
 A (totally serious) Electronic Battleship game on an FPGA—**because sometimes you just need to sink your classmates’ ships in style**.
 
+![FPGA img](img/FPGA.png)
+
 ---
 
 ## Table of Contents

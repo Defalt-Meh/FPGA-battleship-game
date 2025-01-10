@@ -1,8 +1,6 @@
 # E-Battleship 3000
 A (totally serious) Electronic Battleship game on an FPGA—**because sometimes you just need to sink your classmates’ ships in style**.
 
-![FPGA img](img/FPGA.png)
-
 ---
 
 ## Table of Contents
@@ -82,7 +80,7 @@ This is basically the Hollywood blockbuster of digital logic labs, minus the Osc
 
 ## FPGA Glory Shot
 Feast your eyes upon the photographic proof that this project has indeed sailed.  
-(*Insert heroic picture of the FPGA board with LEDs ablaze and SSD showing off.*)
+![FPGA img](img/FPGA.png)
 
 ---
 
